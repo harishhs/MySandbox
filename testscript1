@@ -1,0 +1,4 @@
+#!/bin/ksh
+#This script checks what system you are on
+OS=`uname -s`
+echo "Your system type is " $OS
